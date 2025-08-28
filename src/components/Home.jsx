@@ -8,7 +8,7 @@ export default function Home() {
                         <div className="col-md-8">
                             <div className="banner_taital_main">
                                 <h3 className="banner_text">Bonjour, je suis <br /> <span className="mt-3">Rafaniritsoa Fanantenana</span></h3>
-                                <h1 className="banner_taital">Développeur Laravel | Symfony | React</h1>
+                                <h1 className="banner_taital">Développeur Laravel | Symfony | React | n8n</h1>
                                 <p className="mb-4">Passionné par le web, je crée des applications modernes alliant performance et élégance. Mon expertise technique et ma créativité me permettent de relever les défis complexes du développement.</p>
                                 <div className="acceuil_bt d-flex gap-2 justify-content-start align-items-center">
                                     <a href="contact.html" className="">Contactez-moi</a>

@@ -9,10 +9,10 @@ function Header() {
 
     return (
         <>
-            <div className="header_section">
+            <div className="header_section copyright_section">
                 <div className="container">
-                    <nav className="navbar navbar-expand-lg navbar-light">
-                        <div className="logo"><a href="index.html" className="logo-fana">Fana <span>RF</span></a></div>
+                    <nav className="navbar navbar-expand-lg navbar-light ">
+                        <div className="logo"><a href="index.html" className="logo-fana text-light">Fana <span>RF</span></a></div>
                         <button
                             className="navbar-toggler navbar-toggler"
                             type="button"
