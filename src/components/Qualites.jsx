@@ -34,14 +34,14 @@ function Qualites() {
                                 <div className="box_main ">
                                     {/* <div className="app_icon"><img src="images/icon-3.png" alt="HTML Icon" /></div>
                                     <div className="app_icon_1"><img src="images/icon-7.png" alt="HTML Icon" /></div> */}
-                                    <h4 className="services_text"><i  className="bi bi-check text-success"></i> Travail en Equipe</h4>
+                                    <h4 className="services_text"><i  className="bi bi-check text-success"></i> Rigoureuse </h4>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-sm-6">
                                 <div className="box_main ">
                                     {/* <div className="app_icon"><img src="images/icon-4.png" alt="Logo Icon" /></div>
                                     <div className="app_icon_1"><img src="images/icon-8.png" alt="Logo Icon" /></div> */}
-                                    <h4 className="services_text"><i  className="bi bi-check text-success"></i> Honête</h4>
+                                    <h4 className="services_text"><i  className="bi bi-check text-success"></i> Dynamique </h4>
                                 </div>
                             </div>
                         </div>
