@@ -8,9 +8,9 @@ export default function Home() {
                         <div className="col-md-8">
                             <div className="banner_taital_main">
                                 <h3 className="banner_text">Bonjour, je suis <br /> <span className="mt-3">Rafaniritsoa Fanantenana</span></h3>
-                                <h1 className="banner_taital">Développeur Laravel | Symfony | React | n8n</h1>
+                                <h1 className="banner_taital">Développeuse Laravel | Symfony | n8n</h1>
                                 <p className="mb-4">Passionné par le web, je crée des applications modernes alliant performance et élégance. Mon expertise technique et ma créativité me permettent de relever les défis complexes du développement.</p>
-                                <div className="acceuil_bt d-flex gap-2 justify-content-start align-items-center">
+                                <div className="acceuil_bt d-flex gap-2 justify-content-start align-items-center mt-3">
                                     <a href="contact.html" className="">Contactez-moi</a>
                                     <a href="cv.pdf" className="acceuil_bt2">Télécharger mon CV</a>
                                 </div>
@@ -18,14 +18,14 @@ export default function Home() {
                         </div>
 
                         <div className="col-md-4">
-                            <div className="social_icon">
+                            {/* <div className="social_icon">
                                 <ul>
-                                    <li><a href="#"><i className="bi bi-facebook" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i className="bi bi-twitter" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i className="bi bi-linkedin" aria-hidden="true"></i></a></li>
-                                    <li><a href="#"><i className="bi bi-instagram" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://facebook.com/ro.se.4922" target="_blank" rel="noopener noreferrer"><i className="bi bi-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://twitter.com/votre-username" target="_blank" rel="noopener noreferrer"><i className="bi bi-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/fanantenana-rafaniritsoa-b06738359" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://instagram.com/votre-username" target="_blank" rel="noopener noreferrer"><i className="bi bi-instagram" aria-hidden="true"></i></a></li>
                                 </ul>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
