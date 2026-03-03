@@ -4,7 +4,6 @@ import Qualites from "../components/Qualites";
 import Competence from "../components/Competence";
 import Contact from "../components/Contact";
 import Projet from "../components/Projet";
-import Footer from "../components/Footer";
 import Home from "../components/Home";
 function Acceuil() {
     return (
@@ -15,7 +14,6 @@ function Acceuil() {
             <Competence />
             <Qualites />
             <Contact />
-            <Footer />
         </>
     )
 }
