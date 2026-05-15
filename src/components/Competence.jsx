@@ -95,8 +95,8 @@ function Competence() {
                             <h4 style={styles.categoryTitle}>Outils & Data</h4>
                             <ul style={styles.list}>
                                 <li style={styles.listItem}><i className="bi bi-patch-check-fill" style={styles.icon}></i> Github / Gitlab</li>
-                                <li style={styles.listItem}><i className="bi bi-patch-check-fill" style={styles.icon}></i> MySQL</li>
-                                <li style={styles.listItem}><i className="bi bi-patch-check-fill" style={styles.icon}></i> PostgreSQL</li>
+                                <li style={styles.listItem}><i className="bi bi-patch-check-fill" style={styles.icon}></i> MySQL / PostgreSQL / Supabase</li>
+                                <li style={styles.listItem}><i className="bi bi-patch-check-fill" style={styles.icon}></i> n8n</li>
                             </ul>
                         </div>
                     </div>

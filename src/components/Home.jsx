@@ -85,7 +85,7 @@ export default function Home() {
 
                                 {/* BOUTON CV */}
                                 <a 
-                                    href="https://drive.google.com/file/d/1AJAe-tpfn0kQppNRzTWCMjoveFl_r8LL/view?usp=sharing" 
+                                    href="https://drive.google.com/file/d/1MJs8RusHBC0EecE2wgsxTATVvfh68PtS/view?usp=sharing" 
                                     target="_blank"
                                     className="custom-btn" 
                                     style={styles.btnCV}
