@@ -15,10 +15,10 @@ function Projet() {
             title: "SlayRadio Web",
             description: "Développement d'une plateforme de streaming radio en ligne avec gestion de flux en temps réel.",
             image: "images/projet/slay-radio.PNG",
-            tech: "Symfony",
+            tech: "Symfony ,  Tailwind CSS ",
             link: "https://slayradio.ch/"
         },
-                {
+        {
             id: 3,
             title: "Scraping Social Media",
             description: "Automatisation de collecte de données Facebook et Instagram synchronisée avec Supabase via n8n.",
@@ -28,10 +28,11 @@ function Projet() {
         },
         {
             id: 4,
-            title: "Gestion de Bourses",
-            description: "Application web ministérielle pour la gestion et le suivi des inscriptions aux bourses extérieures.",
-            image: "images/projet/back-office-bourse.png",
-            tech: "Laravel",
+            title: "Développement d’un site web avec chatbot intelligent",
+            description: "Conception et développement d’un site web moderne intégrant un chatbot interactif pour assister les visiteurs, répondre aux questions fréquentes et améliorer l’expérience utilisateur.",
+            image: "images/projet/databoost.png",
+            tech: "Symfony, Tailwind CSS, jQuery, Chatbot IA",
+            link: "https://databoost.mg/"
         }
     ];
 
@@ -97,11 +98,11 @@ function Projet() {
                             <div className="custom-card" style={styles.card}>
                                 {/* IMAGE AVEC OVERLAY */}
                                 <div className="position-relative overflow-hidden">
-                                    <img 
-                                        src={projet.image} 
-                                        alt={projet.title} 
-                                        className="img-fluid w-100" 
-                                        style={{ height: '280px', objectFit: 'cover' }} 
+                                    <img
+                                        src={projet.image}
+                                        alt={projet.title}
+                                        className="img-fluid w-100"
+                                        style={{ height: '280px', objectFit: 'cover' }}
                                     />
                                     <div className="overlay-hover">
                                         <a href={projet.link} target="_blank" rel="noreferrer" style={styles.button}>
@@ -116,7 +117,7 @@ function Projet() {
                                     <p className="text-secondary mb-4" style={{ fontSize: '0.95rem', lineHeight: '1.6' }}>
                                         {projet.description}
                                     </p>
-                                    
+
                                     {/* TECH & LINK MOBILE */}
                                     <div className="mt-auto d-flex justify-content-between align-items-center">
                                         <span className="badge px-3 py-2" style={{ backgroundColor: 'rgba(181, 106, 184, 0.1)', color: '#C586C0', borderRadius: '8px', fontSize: '0.8rem' }}>

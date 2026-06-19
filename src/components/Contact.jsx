@@ -1,6 +1,10 @@
 import React from "react";
 
 function Contact() {
+
+    const email = "rafaniritsoafanantenana@gmail.com";
+    const gmailComposeUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=Contact&body=${encodeURIComponent("Bonjour,\n\nJe vous contacte depuis votre site...")}`;
+
     const styles = {
         section: {
             backgroundColor: '#0a0a0a',
@@ -28,7 +32,10 @@ function Contact() {
             minWidth: '200px',
             justifyContent: 'center'
         }
+
     };
+
+
 
     return (
         <section style={styles.section} className="contact_section">
@@ -49,11 +56,11 @@ function Contact() {
                 {/* Liens de contact */}
                 <div className="row">
                     <div className="col-md-12 d-flex flex-wrap gap-4 justify-content-center align-items-center">
-                        
+
                         {/* LINKEDIN */}
-                        <a 
-                            href="https://www.linkedin.com/in/fanantenana-rafaniritsoa-b06738359" 
-                            target="_blank" 
+                        <a
+                            href="https://www.linkedin.com/in/fanantenana-rafaniritsoa-b06738359"
+                            target="_blank"
                             rel="noopener noreferrer"
                             className="social-btn linkedin-style"
                             style={styles.contactBtn}
@@ -62,8 +69,8 @@ function Contact() {
                         </a>
 
                         {/* EMAIL */}
-                        <a 
-                            href="mailto:rafaniritsoafanantenana@gmail.com?subject=Contact depuis le Portfolio&body=Bonjour Fanantenana,"
+                        <a
+                            href={gmailComposeUrl} target="_blank" className="custom-btn" rel="noopener noreferrer"
                             className="social-btn email-style"
                             style={styles.contactBtn}
                         >
@@ -71,9 +78,9 @@ function Contact() {
                         </a>
 
                         {/* GITHUB */}
-                        <a 
-                            href="https://github.com/Hope211001" 
-                            target="_blank" 
+                        <a
+                            href="https://github.com/Hope211001"
+                            target="_blank"
                             rel="noopener noreferrer"
                             className="social-btn github-style"
                             style={styles.contactBtn}
